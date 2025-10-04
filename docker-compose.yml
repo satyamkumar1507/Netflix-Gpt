@@ -1,0 +1,12 @@
+services:
+  netflix:
+      image: satyamkumar1507/netflix-app
+      container_name: netflix-container
+      ports:
+        - "5173:5173"
+      volumes:
+        - netflix-data:/app/db
+
+
+volumes:
+   netflix-data:          
