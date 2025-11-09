@@ -3,7 +3,7 @@ services:
       image: satyamkumar1507/netflix-app
       container_name: netflix-container
       ports:
-        - "5173:5173"
+        - "5172:5172"
       volumes:
         - netflix-data:/app/db
 
